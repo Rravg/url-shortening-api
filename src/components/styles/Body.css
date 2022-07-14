@@ -1,7 +1,12 @@
 .body {
-  margin-top: 430px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 327px;
   height: 289px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .body .moto {

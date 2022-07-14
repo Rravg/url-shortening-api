@@ -8,8 +8,8 @@ export default function Body() {
       <div className="moto-2">
         Build your brand's recognition and get detailed insights on how your
         link are performing.
-        <Button />
       </div>
+      <Button />
     </div>
   );
 }
