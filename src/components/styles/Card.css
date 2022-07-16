@@ -1,0 +1,52 @@
+.card {
+  padding-top: 44px;
+  margin-bottom: 48px;
+  position: relative;
+  z-index: 1;
+}
+
+.card .container {
+    background-color: white;
+    padding: 77px 32px 41px 32px;
+    position: relative;
+}
+
+.card .container .icon {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  left: calc(50% - 44px);
+  top: -44px;
+}
+
+.card .container .icon .image {
+    width: 88px;
+    height: 88px;
+    border-radius: 88px;
+    background-color: #3A3054;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .container .title {
+  height: 33px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #34313d;
+}
+
+.card .container .text {
+  height: 104px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #9e9aa8;
+}

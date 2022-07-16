@@ -1,13 +1,32 @@
 .App {
+  width: 375px;
+  min-width: 375px;
+  height: 100%;
   margin: auto;
-  margin-top: 40px;
-  width: 327px;
-  /* width: 87.2%; */
 }
 
-.illustration {
-  width: 460px;
-  height: 337px;
-  margin-top: 56px;
-  margin-left: 50px;
+.top {
+  width: 100%;
+  height: 927px;
+  padding: 40px 24px;
+  background-image: url("../src/images/illustration-working.svg");
+  background-size: 140%;
+  background-position: 20px 100px;
+  background-repeat: no-repeat;
+}
+
+.bot {
+  width: 100%;
+  height: fit-content;
+  padding: 0 24px;
+  background-color: #eff1f7;
+
+
+}
+
+.bot-container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  top: -80px;
 }

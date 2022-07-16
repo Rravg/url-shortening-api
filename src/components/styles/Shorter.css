@@ -1,6 +1,6 @@
 .shorter {
-  width: 327px;
-  height: 160px;
+  width: 100%;
+  margin-bottom: 80px;
 }
 
 .shorter .mask {

@@ -1,0 +1,47 @@
+.group-15 {
+  width: 100%;
+}
+
+.group-15 .group-9 {
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.group-15 .group-9 .s-title {
+  margin-bottom: 16px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  color: #34313d;
+}
+
+.group-15 .group-9 .s-text {
+  height: 84px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.109091px;
+  color: #9e9aa8;
+}
+
+.group-15 .group-14 {
+  position: relative;
+}
+
+.group-15 .group-14 .line {
+  width: 8px;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  background-color: #2bd0d0;
+  left: calc(50% - 4px);
+  z-index: 0;
+}
