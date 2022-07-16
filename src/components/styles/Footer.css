@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 54px;
+  padding-bottom: 56px;
+  background-color: #232127;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .image {
+  margin-bottom: 49px;
+}
+
+.footer .image img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(184deg)
+    brightness(102%) contrast(101%);
+}
+
+.footer .icons img {
+  margin-right: 24px;
+}
+
+.footer .icons img:last-child {
+  margin-right: 0px;
+}

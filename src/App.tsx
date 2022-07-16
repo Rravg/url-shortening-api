@@ -5,8 +5,10 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Shorter from "./components/Shorter";
 import StatisticsList from "./components/StatisticsList";
+import Boost from "./components/Boost";
+import Footer from "./components/Footer";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <div className="top">
@@ -19,6 +21,8 @@ function App() {
           <StatisticsList />
         </div>
       </div>
+      <Boost />
+      <Footer />
     </div>
   );
 }

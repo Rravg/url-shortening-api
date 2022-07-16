@@ -1,0 +1,31 @@
+.f-item {
+  margin-bottom: 40px;
+}
+
+.f-item .title {
+  height: 24px;
+  margin-bottom: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: white;
+}
+
+.f-item .item {
+  height: 23px;
+  margin-bottom: 10px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.234375px;
+  color: #bfbfbf;
+}
