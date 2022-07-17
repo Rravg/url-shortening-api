@@ -4,7 +4,7 @@ import brandRecognitionIcon from "../images/icon-brand-recognition.svg";
 import detailedRecordsIcon from "../images/icon-detailed-records.svg";
 import fullyCustomizableIcon from "../images/icon-fully-customizable.svg";
 
-export default function StatisticsList() {
+export default function StatisticsList(): JSX.Element {
   return (
     <div className="group-15">
       <div className="group-9">

@@ -1,12 +1,14 @@
 .icon {
-    display: inline-block;
-    cursor: pointer;
-    align-self: center;
+  display: inline-block;
+  cursor: pointer;
+  align-self: center;
 }
 
-.bar1, .bar2, .bar3 {
-    background-color: #9E9AA8;
-    width: 24px;
-    height: 3px;
-    margin: 6px 0;
+.bar1,
+.bar2,
+.bar3 {
+  background-color: #9e9aa8;
+  width: 24px;
+  height: 3px;
+  margin: 6px 0;
 }

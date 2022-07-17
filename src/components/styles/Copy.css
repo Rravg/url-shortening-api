@@ -1,0 +1,58 @@
+.copy {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.copy .url-container {
+  padding: 6px 16px;
+  border-bottom: 1px solid hsla(257, 8%, 63%, 0.25);
+}
+
+.copy .url-container .url {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  color: #34313d;
+  overflow: hidden;
+}
+
+.copy .s-url-container {
+  padding: 6px 16px 16px 16px;
+}
+
+.copy .s-url-container .short-url {
+  margin-bottom: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  color: #2bd0d0;
+}
+
+.copy .s-url-container button {
+  cursor: pointer;
+
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #2bd0d0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.copy .s-url-container .copied {
+  background-color: #3a3054;
+}

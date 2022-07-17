@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-.top {
+.App .top {
   width: 100%;
   height: 927px;
   padding: 40px 24px;
@@ -15,14 +15,14 @@
   background-repeat: no-repeat;
 }
 
-.bot {
+.App .bot {
   width: 100%;
   height: fit-content;
   padding: 0 24px;
   background-color: #eff1f7;
 }
 
-.bot-container {
+.App .bot-container {
   width: 100%;
   height: fit-content;
   position: relative;

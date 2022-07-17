@@ -1,0 +1,60 @@
+.menu {
+  width: 100%;
+  position: absolute;
+  top: calc(100% + 25px);
+}
+
+.menu .container {
+  width: 100%;
+  height: 383px;
+  padding: 40px 24px;
+  border-radius: 10px;
+  background-color: #3a3054;
+}
+
+.menu .container .item {
+  height: 27px;
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  text-align: center;
+}
+
+.menu .container .item:nth-last-child(3) {
+  height: fit-content;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid hsla(257, 8%, 63%, 0.25);
+}
+
+.menu .container #login {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: white;
+}
+
+.menu .container #sign-up {
+  width: 100%;
+  height: 48px;
+  border-radius: 28px;
+  background-color: #2bd0d0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

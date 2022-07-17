@@ -1,11 +1,13 @@
 .short-button {
+    border: none;
     background-color: #2BD0D0;
     border-radius: 5px;
     height: 48px;
-
+    margin-top: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .short-button .s-txt {
