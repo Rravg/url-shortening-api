@@ -26,3 +26,38 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+@media only screen and (min-width: 1440px) {
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button .bt {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    width: 197px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #2bd0d0;
+  }
+
+  .button .bt:hover {
+    background-color: #9ae3e3;
+  }
+
+  .button .bt .txt {
+    color: #ffffff;
+    height: 30px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

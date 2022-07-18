@@ -16,10 +16,37 @@
     brightness(102%) contrast(101%);
 }
 
-.footer .icons img {
+.footer .f-items-containers .icons img {
   margin-right: 24px;
+  cursor: pointer;
 }
 
-.footer .icons img:last-child {
+.footer .f-items-containers .icons img:hover {
+  filter: brightness(0) saturate(100%) invert(85%) sepia(43%) saturate(972%) hue-rotate(135deg) brightness(86%) contrast(88%);
+}
+
+.footer .f-items-containers .icons img:last-child {
   margin-right: 0px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    padding: 71px 165px 72px 163px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer .f-items-containers {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer .f-items-containers .footer-item-container {
+    width: 461px;
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 101px;
+  }
 }

@@ -10,7 +10,7 @@ export default function Card({ title, text, imgSrc }: CardProps): JSX.Element {
   return (
     <div className="card">
       <div className="container">
-        <div className="icon">
+        <div className="card-icon">
           <div className="image">
             <img src={imgSrc} alt="" />
           </div>

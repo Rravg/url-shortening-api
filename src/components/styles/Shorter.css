@@ -19,3 +19,16 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media only screen and (min-width: 1440px) {
+  .shorter .mask {
+    height: 168px;
+    width: 100%;
+    padding: 52px 64px;
+    background-image: url("../../images/bg-shorten-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    flex-direction: row;
+  }
+}

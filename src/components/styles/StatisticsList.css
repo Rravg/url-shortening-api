@@ -45,3 +45,55 @@
   left: calc(50% - 4px);
   z-index: 0;
 }
+
+@media only screen and (min-width: 1440px) {
+  .group-15 .group-9 {
+    width: 540px;
+    height: 130px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 56px;
+  }
+  .group-15 .group-9 .s-title {
+    height: 48px;
+    margin-bottom: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #34313d;
+  }
+
+  .group-15 .group-9 .s-text {
+    height: 64px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.122727px;
+    color: #9e9aa8;
+  }
+
+  .group-15 .group-14 {
+    display: flex;
+    justify-content: space-between;
+    position: initial;
+  }
+
+  .group-15 .group-14 .line {
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    top: auto;
+    bottom: 115px;
+    left: 0%;
+    right: 100%;
+    background-color: #2bd0d0;
+    z-index: 0;
+  }
+}

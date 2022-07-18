@@ -1,21 +1,36 @@
 .short-button {
-    border: none;
-    background-color: #2BD0D0;
-    border-radius: 5px;
-    height: 48px;
-    margin-top: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  border: none;
+  background-color: #2bd0d0;
+  border-radius: 5px;
+  height: 48px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .short-button .s-txt {
-    color: #ffffff;
-    height: 27px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
+  color: #ffffff;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .short-button {
+    height: 100%;
+    margin: 0px;
+    width: 188px;
+  }
+
+  .short-button:hover {
+    background-color: #9ae3e3;
+  }
+
+  .short-button .s-txt {
+  }
 }

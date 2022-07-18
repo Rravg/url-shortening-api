@@ -16,7 +16,7 @@
   border-radius: 5px;
 }
 
-.card .container .icon {
+.card .container .card-icon {
   width: 88px;
   height: 88px;
   position: absolute;
@@ -24,7 +24,7 @@
   top: -44px;
 }
 
-.card .container .icon .image {
+.card .container .card-icon .image {
   width: 88px;
   height: 88px;
   border-radius: 88px;
@@ -55,4 +55,34 @@
   line-height: 26px;
   text-align: center;
   color: #9e9aa8;
+}
+
+@media only screen and (min-width: 1440px) {
+  .card {
+    padding-top: 44px;
+    margin: 0px;
+    position: relative;
+    z-index: 1;
+    width: 350px;
+  }
+
+  .card:nth-of-type(2) {
+    top: 44px;
+  }
+
+  .card:nth-of-type(3) {
+    top: 88px;
+  }
+
+  .card .container .title {
+    text-align: start;
+  }
+
+  .card .container .text {
+    text-align: start;
+  }
+
+  .card .container .card-icon {
+    left: 32px;
+  }
 }

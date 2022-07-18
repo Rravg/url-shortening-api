@@ -16,11 +16,13 @@ export default function Copy({ url, shortUrl }: CopyProps): JSX.Element {
   };
 
   const handleClick = () => {
-    navigator.clipboard.writeText(shortUrl);
-    setCopied((current) => {
-      return !current;
-    });
-    setTimeout(returnCopy, 5000);
+    if (!copied) {
+      navigator.clipboard.writeText(shortUrl);
+      setCopied((current) => {
+        return !current;
+      });
+      setTimeout(returnCopy, 5000);
+    }
   };
 
   return (

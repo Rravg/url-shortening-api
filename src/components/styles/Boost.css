@@ -17,3 +17,29 @@
   letter-spacing: -0.7px;
   color: white;
 }
+
+@media only screen and (min-width: 1440px) {
+  .group-17 {
+    padding-top: 57px;
+    padding-bottom: 57px;
+
+    background-image: url("../../images/bg-boost-desktop.svg");
+    background-size: 101%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #3a3054;
+  }
+
+  .group-17 .group-16 .title {
+    height: 48px;
+    margin-bottom: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: white;
+  }
+}

@@ -1,14 +1,9 @@
 import "./styles/MenuIcon.css";
 
-interface MenuIconProps {
-  setMenu: React.Dispatch<React.SetStateAction<boolean>>;
-}
-
-export default function MenuIcon({ setMenu }: MenuIconProps): JSX.Element {
+export default function MenuIcon(): JSX.Element {
   const handleClick = () => {
-    setMenu((state) => {
-      return !state;
-    });
+    const menu = document.getElementById("menu");
+    menu?.classList.toggle("visible");
   };
 
   return (

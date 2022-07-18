@@ -9,7 +9,9 @@ export default function Body(): JSX.Element {
         Build your brand's recognition and get detailed insights on how your
         links are performing.
       </div>
-      <Button />
+      <div className="button-container">
+        <Button />
+      </div>
     </div>
   );
 }
