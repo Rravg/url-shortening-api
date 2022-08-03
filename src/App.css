@@ -1,63 +1,114 @@
 .App {
-  width: 375px;
-  min-width: 375px;
-  height: 100%;
-  margin: auto;
+    /* width: 375px;
+  min-width: 375px; */
+    height: 100%;
+    margin: auto;
 }
 
 .App .top {
-  width: 100%;
-  height: 927px;
-  padding: 40px 24px;
-  background-image: url("../src/images/illustration-working.svg");
-  background-size: 140%;
-  background-position: 20px 100px;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 927px;
+    padding: 40px 24px;
+    background-image: url("../src/images/illustration-working.svg");
+    background-size: 140%;
+    background-position: 20px 100px;
+    background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 400px) {
+    .App .top {
+        width: 100%;
+        height: 927px;
+        padding: 40px 24px;
+        background-image: url("../src/images/illustration-working.svg");
+        background-size: 110%;
+        background-position: 40px 100px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .App .top {
+        width: 100%;
+        height: 927px;
+        padding: 40px 24px;
+        background-image: url("../src/images/illustration-working.svg");
+        background-size: 80%;
+        background-position: right 100px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .App .top {
+        width: 100%;
+        height: 927px;
+        padding: 40px 24px;
+        background-image: url("../src/images/illustration-working.svg");
+        background-size: 60%;
+        background-position: right 100px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 1040px) {
+  .App .top {
+      width: 100%;
+      height: 927px;
+      padding: 40px 24px;
+      background-image: url("../src/images/illustration-working.svg");
+      background-size: 40%;
+      background-position: right 100px;
+      background-repeat: no-repeat;
+  }
+}
+
+
 .App .bot {
-  width: 100%;
-  height: fit-content;
-  padding: 0 24px;
-  background-color: #eff1f7;
+    width: 100%;
+    height: fit-content;
+    padding: 0 24px;
+    background-color: #eff1f7;
 }
 
 .App .bot-container {
-  width: 100%;
-  height: fit-content;
-  position: relative;
-  top: -80px;
-}
-
-@media only screen and (min-width: 1440px) {
-  .App {
-    width: 100%;
-    max-width: 1440px;
-  }
-
-  .App .top {
-    width: 100%;
-    height: 800px;
-    padding: 48px 165px 0px 167px;
-    background-image: url("../src/images/illustration-working.svg");
-    background-size: 50%;
-    background-position: calc(100% + 100px) 40%;
-    background-repeat: no-repeat;
-  }
-
-  .App .bot {
-    width: 100%;
-    height: fit-content;
-    padding: 0 165px;
-    padding-bottom: 120px;
-    background-color: #eff1f7;
-  }
-
-  .App .bot-container {
     width: 100%;
     height: fit-content;
     position: relative;
-    top: -84px;
-  }
-  
+    top: -80px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .App {
+        width: 100%;
+        /* max-width: 1440px; */
+    }
+
+    .App .top {
+        width: 100%;
+        height: 800px;
+        padding: 48px 165px 0px 167px;
+        background-image: url("../src/images/illustration-working.svg");
+        background-size: 50%;
+        background-position: calc(100% + 100px) 40%;
+        background-repeat: no-repeat;
+    }
+
+    .App .bot {
+        width: 100%;
+        height: fit-content;
+        padding: 0 165px;
+        padding-bottom: 120px;
+        background-color: #eff1f7;
+    }
+
+    .App .bot-container {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        top: -84px;
+
+        max-width: 1110px;
+        margin: auto;
+    }
 }

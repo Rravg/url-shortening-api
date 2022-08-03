@@ -30,5 +30,6 @@
     background-repeat: no-repeat;
     background-position: left;
     flex-direction: row;
+    gap: 24px;
   }
 }

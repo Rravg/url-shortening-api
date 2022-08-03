@@ -1,52 +1,58 @@
+footer {
+    background-color: #232127;
+}
+
 .footer {
-  padding-top: 54px;
-  padding-bottom: 56px;
-  background-color: #232127;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    padding-top: 54px;
+    padding-bottom: 56px;
+    background-color: #232127;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
 }
 
 .footer .image {
-  margin-bottom: 49px;
+    margin-bottom: 49px;
 }
 
 .footer .image img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(184deg)
-    brightness(102%) contrast(101%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(184deg) brightness(102%) contrast(101%);
 }
 
 .footer .f-items-containers .icons img {
-  margin-right: 24px;
-  cursor: pointer;
+    margin-right: 24px;
+    cursor: pointer;
 }
 
 .footer .f-items-containers .icons img:hover {
-  filter: brightness(0) saturate(100%) invert(85%) sepia(43%) saturate(972%) hue-rotate(135deg) brightness(86%) contrast(88%);
+    filter: brightness(0) saturate(100%) invert(85%) sepia(43%) saturate(972%) hue-rotate(135deg)
+        brightness(86%) contrast(88%);
 }
 
 .footer .f-items-containers .icons img:last-child {
-  margin-right: 0px;
+    margin-right: 0px;
 }
 
 @media only screen and (min-width: 1440px) {
-  .footer {
-    padding: 71px 165px 72px 163px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+    .footer {
+        padding: 71px 165px 72px 163px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1440px;
+    }
 
-  .footer .f-items-containers {
-    display: flex;
-    justify-content: space-between;
-  }
+    .footer .f-items-containers {
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .footer .f-items-containers .footer-item-container {
-    width: 461px;
-    height: 166px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 101px;
-  }
+    .footer .f-items-containers .footer-item-container {
+        width: 461px;
+        height: 166px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 101px;
+    }
 }

@@ -1,5 +1,7 @@
 .group-15 {
   width: 100%;
+  max-width: 1110px;
+  margin: auto;
 }
 
 .group-15 .group-9 {
@@ -44,6 +46,8 @@
   background-color: #2bd0d0;
   left: calc(50% - 4px);
   z-index: 0;
+
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -91,9 +95,12 @@
     width: 100%;
     top: auto;
     bottom: 115px;
-    left: 0%;
+    left: calc(50% -  555px);
     right: 100%;
     background-color: #2bd0d0;
     z-index: 0;
+
+    max-width: 1110px;
+    margin: auto;
   }
 }

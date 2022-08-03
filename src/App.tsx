@@ -7,22 +7,23 @@ import Boost from "./components/Boost";
 import Footer from "./components/Footer";
 
 function App(): JSX.Element {
-  return (
-    <div className="App">
-      <div className="top">
-        <Header />
-        <Body />
-      </div>
-      <div className="bot">
-        <div className="bot-container">
-          <Shorter />
-          <StatisticsList />
+    return (
+        <div className="App">
+            <div className="top">
+                <Header />
+                <Body />
+            </div>
+
+            <div className="bot">
+                <div className="bot-container">
+                    <Shorter />
+                    <StatisticsList />
+                </div>
+            </div>
+            <Boost />
+            <Footer />
         </div>
-      </div>
-      <Boost />
-      <Footer />
-    </div>
-  );
+    );
 }
 
 export default App;
