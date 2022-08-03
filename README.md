@@ -38,14 +38,13 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-url-shortening-app-using-react-typescript-f4m_Oswo-l)
 - Live Site URL: [Add live site URL here](https://rravg.github.io/url-shortening-api/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
 - TypeScript
